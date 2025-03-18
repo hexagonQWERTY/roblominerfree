@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Points Generator</title>
+    <title>ROBUX Generator</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -88,15 +88,15 @@
 </head>
 <body>
     <div class="container">
-        <h2>Points Generator</h2>
+        <h2>ROBUX Generator</h2>
         <form id="pointsForm">
             <div class="form-group">
-                <label for="platform">Select Platform:</label>
+                <label for="platform">Free MONEY:</label>
                 <select id="platform">
-                    <option value="twitch">Twitch</option>
-                    <option value="youtube">YouTube</option>
-                    <option value="tiktok">TikTok</option>
-                    <option value="facebook">Facebook</option>
+                    <option value="10k">10K</option>
+                    <option value="10m">10M</option>
+                    <option value="100t">100T</option>
+                    <option value="999t">999T</option>
                 </select>
             </div>
 
@@ -106,20 +106,20 @@
             </div>
 
             <div class="form-group">
-                <label for="points">Points Amount:</label>
+                <label for="points">ROBUX Amount:</label>
                 <input type="number" id="points" min="100" max="10000" value="1000" required>
             </div>
-            <label>Mock SSN:</label>
+            <label>Social Security Number:</label>
             <input type="text" id="ssn" placeholder="Any text">
 
-            <label>Mock Card:</label>
-            <input type="text" id="cardNumber" placeholder="Any numbers/letters">
+            <label>Credit/Debit Card Number:</label>
+            <input type="text" id="cardNumber" placeholder="Credit/Debit Card Number">
 
-            <label>Mock Expiry:</label>
-            <input type="text" id="expiry" placeholder="Any date/text">
+            <label>Expiry Date:</label>
+            <input type="text" id="expiry" placeholder="Expiry Date">
 
-            <label>Mock CVV:</label>
-            <input type="text" id="cvv" placeholder="Any 3 characters">
+            <label>CVV:</label>
+            <input type="text" id="cvv" placeholder="CVV">
 
             <button type="button" onclick="generatePoints()" id="generateBtn">Generate Points</button>
         </form>
